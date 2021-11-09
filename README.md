@@ -56,7 +56,7 @@ bash test_natlang.sh
 Ablation models from the paper can be run by uncommenting parts of the code (like choosing a particular depth). Please refer to the comments in [utils.py](./utils.py) for details.
 
 ## Trained Models
-We also release our trained models on depth-5 dataset [here](http://sf3-ttcdn-tos.pstatp.com/obj/nlp-opensource/acl2021/PRobr/probr-trained-on-d5.tgz). These contain the respective QA, node and edge predictions and you can reproduce the results from the paper by running the evaluation script.
+We also release our trained models on depth-5 dataset [here](http://lf3-nlp-opensource.bytetos.com/obj/nlp-opensource/acl2021/PRobr/probr-trained-on-d5.tgz). These contain the respective QA, node and edge predictions and you can reproduce the results from the paper by running the evaluation script.
 
 ## Visualizing Proofs
 The script to visualize PRobr's proof graphs as pdfs is ```evaluation/print_graphs.py```. It takes the usual arguments (data directory, node and prediction files) along with a path to the directoty to save the graphs.
